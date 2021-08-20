@@ -5,10 +5,10 @@ Data una lista di numeri, inventiamo un processo per trovare il numero più gran
 ## Contenuti <!-- omit in toc -->
 
 - [Istruzioni](#istruzioni)
-- [Obiettivo: tre descrizioni](#obiettivo:-tre-descrizioni)
-- [Prima descrizione: scrivila tu](#prima-descrizione:-scrivila-tu)
-- [Seconda descrizione: pseudocodice](#seconda-descrizione:-pseudocodice)
-- [Terza descrizione: codice vero e proprio](#terza-descrizione:-codice-vero-e-proprio)
+- [Obiettivo: tre descrizioni](#obiettivo-tre-descrizioni)
+- [Prima descrizione: scrivila tu](#prima-descrizione-scrivila-tu)
+- [Seconda descrizione: pseudocodice](#seconda-descrizione-pseudocodice)
+- [Terza descrizione: codice vero e proprio](#terza-descrizione-codice-vero-e-proprio)
 
 ## Istruzioni
 

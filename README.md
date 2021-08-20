@@ -4,7 +4,7 @@
 
 - [Introduzione](#introduzione)
 - [Gli esercizi](#gli-esercizi)
-- [Allenarsi a programmare: modellazione e sintassi](#allenarsi-a-programmare:-modellazione-e-sintassi)
+- [Allenarsi a programmare: modellazione e sintassi](#allenarsi-a-programmare-modellazione-e-sintassi)
 - [Obiettivi degli esercizi](#obiettivi-degli-esercizi)
 - [Materiali](#materiali)
 - [Regole](#regole)
