@@ -1,77 +1,76 @@
-# Find Largest Number
+# Trova il numero più grande
 
-Given a list of numbers, let's invent a process to find the largest number.
+Data una lista di numeri, inventiamo un processo per trovare il numero più grande.
 
+## Contenuti <!-- omit in toc -->
 
-## Contents <!-- omit in toc -->
+- [Istruzioni](#istruzioni)
+- [Obiettivo: tre descrizioni](#obiettivo:-tre-descrizioni)
+- [Prima descrizione: scrivila tu](#prima-descrizione:-scrivila-tu)
+- [Seconda descrizione: pseudocodice](#seconda-descrizione:-pseudocodice)
+- [Terza descrizione: codice vero e proprio](#terza-descrizione:-codice-vero-e-proprio)
 
-- [Instructions](#instructions)
-- [The Goal: Three Descriptions](#the-goal-three-descriptions)
-- [First Description: Write One Yourself](#first-description-write-one-yourself)
-- [Second Description: Pseudocode](#second-description-pseudocode)
-- [Third Description: Actual Code](#third-description-actual-code)
+## Istruzioni
 
-## Instructions
+Immagina di avere una penna/matita e un blocco di post-it. Unə amicə ti consegna queste cose:
 
-Imagine that you have a pen/pencil and a pad of stick notes. A friend hands you the following:
+- Un mazzo di 20 carte con dei numeri casuali stampati su un lato, tutte a faccia in giù
 
-- A stack of 20 cards with random numbers written on one side, all face down
+Questə amicə poi ti chiede di trovare il numero più grande nel mazzo e di consegnarli un post-it con la risposta scritta sopra.
 
-Your friend then asks you to find the largest number in the stack of index cards and hand them a sticky note with the answer written on it.
+Hai due compiti:
 
-You have two tasks:
+1. Inventare un processo che produce il risultato che richiede lə tuə amicə
+1. Scrivere una descrizione dettagliata del tuo processo in modo che un'altra persona possa usarla per rimetter in atto il tuo processo passo per passo
 
-1. Invent a process that produces the result your friend wants
-1. Write down a detailed description of your process that another person could use to reenact your process step by step
+**Non dimenticare!** Qualinque sia il processo che inventi, deve seguire [le regole][regole]. Le regole sono state pensate in modo dafarti ragionare come una macchina invece che come un essere umano. Istruzioni come "Trova il numero più grande" o "Dimmi se il numero 0 è uno di quelli contenuti nelle carte" vanno bene per una persona, ma non descrivono i passi che hai compiuto per produrre la tua risposta.
 
-**Don't forget!**  Whatever process you invent should follow [the rules][the-rules]. The rules are there so that you think in mechanical terms rather than human terms.  Instructions like "Find the largest number" or "Tell me whether the number 0 is on one of the index cards" are good enough for a person, but they don't describe the steps you took to produce your answer.
+## Obiettivo: tre descrizioni
 
-## The Goal: Three Descriptions
+Inventare il pocesso che produce la risposta alla domanda del tuo amico è solo metà dell'opera. L'altra metà è scrivere il codice che dica a un computer di portare a termine quel processo al posto tuo.
 
-Inventing a process that produces the answer your friend wants is only half the battle. The other half is writing code which tells a computer to carry out that process for you.
+Quando [Neo di Matrix](https://www.youtube.com/watch?v=3vAnuBtyEYE) guarda il codice, non vede un miscuglio di simboli, lui vede quello che il codice descrive: una macchina che somma numeri, suona canzoni, mostra il meteo attuale, o qualsiasi altra cosa. Noi vogliamo che tu diventi come Neo il più velocemente possibile.
 
-When [Neo from The Matrix](https://www.youtube.com/watch?v=3vAnuBtyEYE) looks at code he doesn't see a jumble of symbols, he sees whatever the code describes: a machine that adds numbers, plays songs, displays the current weather, or whatever else. We want you to become like Neo as quickly as possible.
+Per farlo, abbiamo bisogno che mostri come si presenta il processo che hai inventato quando viene descritto con codice vero e proprio. Ci arriviamo passo per passo usando tre diversi tipi di descrizione:
 
-To do this, we need to show you what the process you invented looks like when described with actual code. Let's get there step-by-step using three different flavors of description:
+1. Una descrizione che scrivi a modo tuo, usando qualunque sintassi ti risulta naturale
+1. Un'altra descrizione scritta in pseudocodice, un formato vicino al linguaggio umano strutturato in modo simile ad un vero programma, senza impantanarsi nella sintassi di uno specifico linguaggio di programmazione
+1. Alcuni programmi veri e propri scritti in diversi linguaggi di programmazione
 
-1. One description you write yourself using whatever syntax feels natural to you
-1. Another description written in pseudocode, a human-friendly format structured similarly to an actual program without getting bogged down in the syntax of a specific programming language
-1. A few actual programs written in different programming languages
+Dopo averlo fatto per 10-15 volte, sarai in grado di separare le parti di codice che corrispondono a qualcosa che comprendi da quelle che non lo fanno. Sarai in grado di cercare dei tutorial riguardo quelle parti che non comprendi. Quei tutorial non ti sembreranno un insieme di fatti arbitrari da memorizzare, ma al contrario, ti aiuteranno a scrivere programmi migliori e più descrittivi.
 
-After you do this 10-15 times, you'll be able to separate the pieces of code that map to something you undetstand from those that don't. You'll be able to search for tutorials about those parts you don't understand. Those tutorials won't feel like a collection of arbitrary facts to memorize, but instead help you write better, more descriptive programs.
+## Prima descrizione: scrivila tu
 
-## First Description: Write One Yourself
+In italiano, scrivi una descrizione chiara, passo per passo, del processo che hai appena inventato. Cosa significa "chiara" e "passo per passo"? Per aiutarti a scrivere una buona descrizione, tieni a mente il seguente scenario. O, meglio ancora, provalo con un amicə!
 
-In English, write a clear, step-by-step description of the process you just invented.  What does "clear" and "step-by-step" mean? To help you write a good description, keep the following scenario in mind. Or, better yet, actually carry it out with a friend!
+Immagina di andare da unə amicə che non ha mai affrontato prima questo problema. Puoi darlə un blocco di post-it, una penna, e la tua descrizione del processo. Infine, puoi darlə un mazzo di carte numerate e chiederlə di portare a termine il processo descritto.
 
-Imagine going to a friend who has never seen this problem before. You give them a pad of sticky notes, a pen, and your description of the process. Finally, you hand them a stack of numbered index cards and ask them to carry out the process described.
+Dovresti sentirti sicurə che lə tuə amicə possa portare a termine il processo con poche o nessuna spiegazione. Non dovrebbe neanche avere bisogno di "sapere" che l'obiettivo sia di trovare il numero più grande.
 
-You should feel confident that your friend could carry out the process with little-to-no explanation. They shouldn't even have to "know" that their goal is to find the largest number.
+Come minimo, lə tuə amicə dovrebbe avere chiare le seguenti istruzioni:
 
-At a minimum, the following should be clear to your friend as they follow your instructions:
+- Cosa fare prima di iniziare a voltare le carte (se necessario)
+- Cosa scrivere sui post-it e quando
+- Quando voltare una carta
+- Tra un giro di carta e l'altro, cosa fare con le informazioni che vede
+- Quando smettere di voltare
+- Cosa dare dopo avere terminato di voltare tutte le carte (se necessario)
+- Quando restituire il post-it contentente la risposta
 
-- What to do before they begin flipping cards (if anything)
-- What to write on the sticky notes and when
-- When to flip a card
-- Between each flip, what to do with the information they can see
-- When to stop flipping
-- What to do after they've finished flipping cards (if anything)
-- When to return the sticky note containing the answer
+## Seconda descrizione: pseudocodice
 
-## Second Description: Pseudocode
+Abbiamo descritto un processo per risolvere questo problema in pseudocodice qui: [pseudocode.md](pseudocode.md).
 
-We've described a process for solving this problem in pseudocode, here: [pseudocode.md](pseudocode.md).
+Ricorda, lo pseudocodice è una descrizione informale, di alto livello, di un programma informatico. Il suo scopo è di comunicare la struttura di un programma ad un altrə programmatorə senza restare impantanati della sintassi di uno specifico linguaggio di programmazione. E' più strutturato del semplice italiano, ma meno strutturato dei un codice eseguibile vero e proprio.
 
-Remember, pseudocode is an informal, high-level description of a computer program. It's meant to communicate the structure of a program to another programmer without getting bogged down in the syntax of a specific language.  It's more structured than plain English, but less structured than actual, executable code.
+La tua descrizione e lo pseudocodice sono descrizioni di processi che producono lo stesso risultato. I passi descritti possono non essere identici dal momento che c'è più di un modo di calcolare il risultato.
 
-Your description and the pseudocode are descriptions of processes that produce the same result. The steps they describe might not be identical since there's more than one way to calculate the result.
+Prova ad affiancarli e verifica che producono lo stesso risultato. Quali aspetti dello pseudocodice ti sono chiari? Quali parti ti confondono? Descrivono la stessa sequenza di passi? Se no, in cosa differiscono?
 
-Put the two side-by-side and convince yourself that they produce the same result.  What aspects of the pseudocode make sense to you?  What parts are confusing? Do they describe the same sequence of steps?  If not, where do they differ?
+## Terza descrizione: codice vero e proprio
 
-## Third Description: Actual Code
+Infine, dai un'occhiata a [syntax.md](syntax.md). Questo contiene delle vere e proprie implementazioni in diversi linguaggi di programmazione. Vedi come questi programmi rappresentano la stessa procedura contenuta nella tua descrizione e nello pseudocodice?
 
-Next, look at [syntax.md](syntax.md). This contains actual implementations in multiple languages. Do you see how these programs represent the same procedure as your description and the pseudocode?
+Mettili fianco a fianco con lo pseudocodice e la tua descrizione. Prendi nota di quali pezzi di sintassi corrispondono a cose che comprendi e quali no. Puoi ricercare in rete molti di questi pezzi di sintassi per trovarne le spiegazioni.
 
-Put them side by side with the pseudocode and your description.  Take note of which pieces of syntax map to something you understand and which pieces don't.  Many of these pieces of syntax you can search for.
-
-How to the languages themselves differ? How do they represent things like the stack of index cards or writing a number on a sticky note?
+In cosa differiscono i linguaggi tra loro? Come rappresentano gli elementi come il mazzo di carte o scrivere un numero su un post-it?

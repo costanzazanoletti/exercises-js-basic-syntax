@@ -1,21 +1,21 @@
-# Pseudocode: Find Largest Number
+# Pseudocodice: trova il numero più grande
 
 ```text
-define procedure find_largest_number:
-  input: a pile of numbers, call it PILE
+definisci procedura trova_numero_maggiore:
+  input: una pila di numeri, chiamala PILA
 
-  look at first NUMBER in pile and write it on sticky note, call it MAX_SO_FAR
+  guarda il primo NUMERO nella pila e scrivilo sul post-it, chiamalo MAX_FINORA
 
-  foreach NUMBER in PILE, do the following:
-    if NUMBER > MAX_SO_FAR, then:
-      replace MAX_SO_FAR with NUMBER on sticky note
-    end if
-  end foreach
+  per_ogni NUMERO nella PILA, esegui:
+    se NUMERO > MAX_FINORA, allora:
+      sostituisci MAX_FINORA con NUMERO sul post-it
+    fine se
+  fine per_ogni
 
-  hand back MAX_SO_FAR sticky note
-end define procedure
+  restituisci post-it con MAX_FINORA
+fine definisci procedura
 
-let PILE be [10, 9, -2, 100, 17]
-call procedure find_largest_number with inputs: PILE // will give us 100
+assegna PILA uguale a [10, 9, -2, 100, 17]
+chiama la procedura trova_numero_maggiore con input: PILA // ci restituisce 100
 
 ```

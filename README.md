@@ -2,13 +2,13 @@
 
 ## Indice <!-- omit in toc -->
 
-- [Introduzione](#Introduzione)
-- [Gli esercizi](#Gli esercizi)
-- [Allenarsi a programmare: Modellazione e Sintassi](#Allenarsi a programmare: Modellazione e Sintassi)
-- [Obiettivi degli esercizi](#Obiettivi degli esercizi)
-- [Materiali](#Materiali)
-- [Regole](#Regole)
-  - [Come mai queste regole](#Come mai queste regole)
+- [Introduzione](#introduzione)
+- [Gli esercizi](#gli-esercizi)
+- [Allenarsi a programmare: modellazione e sintassi](#allenarsi-a-programmare:-modellazione-e-sintassi)
+- [Obiettivi degli esercizi](#obiettivi-degli-esercizi)
+- [Materiali](#materiali)
+- [Regole](#regole)
+- [Come mai queste regole](#come-mai-queste-regole)
 
 ## Introduzione
 
@@ -24,20 +24,20 @@ I problemi sono pensati per essere semplici in modo che tu possa esercitarti nel
 
 Prima di tuffarti negli esercizi leggi anche le prossime sezioni.
 
-1. [Find the largest number](exercises/find-largest-number)
-1. [Find the smallest number](exercises/find-smallest-number)
-1. [Is in list](exercises/is-in-list)
-1. [Add numbers](exercises/add-numbers)
-1. [Find max even number](exercises/find-largest-even-number)
-1. [Find max odd number](exercises/find-largest-odd-number)
-1. [Find second-largest number](exercises/find-second-largest-number)
-1. [Count specific number](exercises/count-number)
-1. [Count positive numbers](exercises/count-positive-numbers)
-1. [Count negative numbers](exercises/count-negative-numbers)
-1. [Count larger than 10](exercises/count-larger-than-ten)
-1. [Count smaller than 10](exercises/count-smaller-than-ten)
-1. [Count larger than X](exercises/count-larger-than)
-1. [Count smaller than Y](exercises/count-smaller-than)
+1. [Trova il numero più grande](exercises/find-largest-number)
+1. [Trova il numero più piccolo](exercises/find-smallest-number)
+1. [E' in lista](exercises/is-in-list)
+1. [Somma i numeri](exercises/add-numbers)
+1. [Trova il numero pari più grande](exercises/find-largest-even-number)
+1. [Trova il numero dispari più grande](exercises/find-largest-odd-number)
+1. [Trova il secondo numero più grande](exercises/find-second-largest-number)
+1. [Conta dei numeri specifici](exercises/count-number)
+1. [Conta i numeri positivi](exercises/count-positive-numbers)
+1. [Conta i numeri negativi](exercises/count-negative-numbers)
+1. [Conta i maggiori di 10](exercises/count-larger-than-ten)
+1. [Conta i minori di 10](exercises/count-smaller-than-ten)
+1. [Conta i maggiori di X](exercises/count-larger-than)
+1. [Conta i minori di Y](exercises/count-smaller-than)
 
 ## Allenarsi a programmare: Modellazione e Sintassi
 

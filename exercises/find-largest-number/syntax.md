@@ -1,10 +1,11 @@
-# Syntax: Find Largest Number
+# Sintassi: Trova il numero più grande
 
-## Contents <!-- omit in toc -->
+## Contenuti <!-- omit in toc -->
 
 - [JavaScript](#javascript)
 - [Ruby](#ruby)
 - [Python](#python)
+- [Java](#java)
 
 ## JavaScript
 
@@ -12,7 +13,7 @@
 function findLargestNumber(pile) {
   let maxSoFar = pile[0];
 
-  for(let number of pile) {
+  for (let number of pile) {
     if (number > maxSoFar) {
       maxSoFar = number;
     }
@@ -25,7 +26,6 @@ let pileOfNumbers = [1, 4, 10, 9, -3, 20, 18];
 let largestNumber = findLargestNumber(pileOfNumbers);
 
 console.log(largest_number);
-
 ```
 
 ## Python
@@ -66,5 +66,29 @@ pile_of_numbers = [1, 4, 10, 9, -3, 20, 18]
 largest_number = find_largest_number(pile_of_numbers)
 
 puts(largest_number)
+
+```
+
+## Java
+
+```javascript
+public class FindLargestNumber {
+
+	public static int findLargestNumber(int[] pile) {
+		int maxSoFar = pile[0];
+		for (int i = 1; i < pile.length; i++) {
+			if (pile[i] > maxSoFar) {
+				maxSoFar = pile[i];
+			}
+		}
+		return maxSoFar;
+	}
+
+	public static void main(String[] args) {
+		int[] pileOfNumbers = { 1, 4, 10, 9, -3, 20, 18 };
+		System.out.println(findLargestNumber(pileOfNumbers));
+	}
+
+}
 
 ```
