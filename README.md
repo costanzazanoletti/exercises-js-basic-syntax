@@ -1,28 +1,28 @@
-# Index Card Exercises
+# Esercizi con le index cards
 
-## Table of Contents <!-- omit in toc -->
+## Indice <!-- omit in toc -->
 
-- [Introduction](#Introduction)
-- [The Exercises](#The-Exercises)
-- [Practicing Programming: Modeling And Syntax](#Practicing-Programming-Modeling-And-Syntax)
-- [Exercise Goals](#Exercise-Goals)
-- [Materials](#Materials)
-- [The Rules](#The-Rules)
-  - [Why These Rules](#Why-These-Rules)
+- [Introduzione](#Introduzione)
+- [Gli esercizi](#Gli esercizi)
+- [Allenarsi a programmare: Modellazione e Sintassi](#Allenarsi a programmare: Modellazione e Sintassi)
+- [Obiettivi degli esercizi](#Obiettivi degli esercizi)
+- [Materiali](#Materiali)
+- [Regole](#Regole)
+  - [Come mai queste regole](#Come mai queste regole)
 
-## Introduction
+## Introduzione
 
-One reason learning to code is difficult is because everything about it feels unfamiliar. To a beginner, code looks like a magical incantation. "How does this pile of `if`'s and `for`'s and `function`'s make the computer do what I want?"
+Uno dei motivi per cui imparare a programmare è difficile è perché tutto sembra sconosciuto. Per un principiante, il codice sembra un incantesimo magico. "In che modo questa pila di `if`, `for` e `function` fa fare al computer quello che voglio?"
 
-When learning your first foreign language, you at least have a native language you can use as a reference. When learning your first programming language, what could you possibly use as a reference? These exercises are meant to give you that reference.
+Quando impari la tua prima lingua straniera, hai almeno una lingua madre che puoi usare come riferimento. Quando impari il tuo primo linguaggio di programmazione, cosa potresti usare come riferimento? Questi esercizi hanno lo scopo di darti quel riferimento.
 
-We're going to give you some very simple problems and ask you to solve them using everyday physical materials like index cards, sticky notes, and pens. These problems will be things like "Find the largest number in this list of numbers" or "Tell me how many numbers in this list of numbers are greater than 10."
+Ti daremo alcuni problemi molto semplici e ti chiederemo di risolverli utilizzando materiali fisici di uso quotidiano come schede, post-it e penne. Questi problemi chiederanno cose come "Trova il numero più grande in questo elenco di numeri" o "Dimmi quanti numeri in questo elenco di numeri sono maggiori di 10".
 
-The problems are meant to be simple so that you can practice the harder, less familiar part: describing step-by-step the process you used to to solve each problem. After comparing your description to code that implements the same process, you'll find that the code looks less like a magical incantation and more like a sentence in a foreign language.
+I problemi sono pensati per essere semplici in modo che tu possa esercitarti nella parte più difficile e meno familiare: descrivere passo dopo passo il processo che hai usato per risolvere ogni problema. Dopo aver confrontato la tua descrizione con il codice che implementa lo stesso processo, scoprirai che il codice sembra meno un incantesimo magico e più una frase in una lingua straniera.
 
-## The Exercises
+## Gli esercizi
 
-Please read the other sections before diving into these exercises.
+Prima di tuffarti negli esercizi leggi anche le prossime sezioni.
 
 1. [Find the largest number](exercises/find-largest-number)
 1. [Find the smallest number](exercises/find-smallest-number)
@@ -39,93 +39,93 @@ Please read the other sections before diving into these exercises.
 1. [Count larger than X](exercises/count-larger-than)
 1. [Count smaller than Y](exercises/count-smaller-than)
 
-## Practicing Programming: Modeling And Syntax
+## Allenarsi a programmare: Modellazione e Sintassi
 
-> 🚨**Key Takeaway**🚨
+> 🚨**Concetti cardine**🚨
 >
-> Novices focus too much on syntax and not enough on modeling. This is understandable since syntax is new, foreign, and unique to programming.  Most curriculum reinforces this by organizing everything by syntax.
+> I principianti si concentrano troppo sulla sintassi e non abbastanza sulla modellazione. Ciò è comprensibile poiché la sintassi è nuova, estranea e peculiare per la programmazione. La maggior parte dei curriculum rinforzano questo atteggiamento organizzando tutto in base alla sintassi.
 
-What is "modeling"? Remember, computers are dumb but fast. They can perform billions of operations per second, but those operations are so specific and so mechanical that you'd almost never think to spell them out when talking to another human.
+Che cos'è il "modello"? Ricorda, i computer sono stupidi ma veloci. Possono eseguire miliardi di operazioni al secondo, ma quelle operazioni sono così specifiche e così meccaniche che non penseresti quasi mai di doverle spiegare quando parli con un altro essere umano.
 
-This doesn't mean computers are limited. We can compose infinitely many songs with finitely many notes and we can compose infinitely many programs with finitely many operations.
+Questo non significa che i computer siano limitati. Possiamo comporre infiniti brani con un numero finito di note e possiamo comporre infiniti programmi con un numero finito di operazioni.
 
-Programming is the art/science of getting computers to solve problems on our behalf. The two fundamental skills are:
+La programmazione è l'arte/scienza di far sì che i computer risolvano i problemi per nostro conto. Le due abilità fondamentali sono:
 
-1. **Modeling**
+1. **Modellazione**
 
-   Understanding a problem to the point where you can solve it in terms of these super-specific operations. The understanding we have is a kind of picture of the problem in our heads, called a [mental model][wiki-mental-model].
+   Comprendere un problema così a fondo da poterlo risolvere in termini di quelle operazioni super-specifiche che un computer può eseguire. La comprensione che ne abbiamo è una sorta di immagine del problema nella nostra mente, chiamata un [modello mentale][wiki-mental-model].
 
-1. **Coding + Syntax**
+1. **Codifica + Sintassi**
 
-   Translating your mental model of the problem into code a computer can execute
+   Tradurre il tuo modello mentale del problema in codice che un computer può eseguire
 
-If there's a "fundamental theorem of learning to program" it's this:
+Se esiste un "teorema fondamentale dell'imparare a programmare" è questo:
 
-- If you have a clear mental model and sufficient knowledge of syntax, you'll know exactly what code to write.
+- Se hai un modello mentale chiaro e sufficiente conoscenza della sintassi, saprai esattamente quale codice scrivere.
 
-Equivalently:
+Equivalentemente:
 
-- If you don't know what code to write then your mental model isn't as clear as you think it is or you don't have sufficient knowledge of syntax (likely a combination of both).
+- Se non sai che codice scrivere allora il tuo modello mentale non è così chiaro come credi o non hai sufficiente conoscenza della sintassi (o probabilmente una combinazione di entrambe le cose).
 
-So, remember: novices focus too much on syntax and not enough on modeling. This is understandable since syntax is new, foreign, and unique to programming. Most curriculum reinforces this by organizing everything by syntax.
+Quindi, ricorda: i principianti si concentrano troppo sulla sintassi e non abbastanza sulla modellazione. Ciò è comprensibile poiché la sintassi è nuova, estranea e peculiare per la programmazione. La maggior parte dei curriculum rinforzano questo atteggiamento organizzando tutto in base alla sintassi.
 
+## Obiettivi degli esercizi
 
-## Exercise Goals
+Introdurre un piccolo pezzo di sintassi dopo l'altro rende difficile avere una visione completa di ciò che fa un programmatore. "Come si collega questo a qualcos'altro? Come farò a ricordare tutto questo?", potresti chiederti.
 
-Introducing one tiny piece of syntax after another makes it difficult to practice the full scope of what a programmer does. "How does this tie into anything else? How am I going to remember all of this?", you might ask yourself.
+Questi esercizi sono stati pensati per farti giocare l'intero gioco senza farti travolgere dalla sintassi. Ti faremo risolvere i problemi come farebbe un computer e poi ti presenteremo la sintassi effettiva che il computer richiede.
 
-These exercises are here to get you playing the whole game without overwhelming you with syntax. We're going to get you solving problems as a computer would and then introduce you to the actual syntax the computer requires.
+Nello specifico, questi esercizi sono progettati per:
 
-Specifically, these exercises are designed to:
+1. Presentarti i ~5 blocchi che fanno da fondamenta a qualsiasi programma che scriverai
+1. Farti modellare e risolvere problemi che sai già come risolvere utilizzando quei blocchi.
+1. Introdurre la sintassi di Javascript traducendo le tue soluzioni in codice funzionante
 
-1. Introduce you to the ~5 building blocks that serve as the basis of every computer program you'll ever write
-1. Get you modeling and solving problems you already know how to solve using those building blocks
-1. Introduce you to the syntax of JavaScript by translating your solutions into working JavaScript code
+## Materiali
 
-## Materials
+Ogni esercizio richiede i seguenti materiali:
 
-Every exercise requires the following materials:
+- Un mazzo di ~20 [carte][wiki-index-cards] con numeri casuali compresi tra -100 e 100 stampati su un lato
+- [Post-it][wiki-sticky-notes] o piccoli pezzi di carta da scarabocchiare
+- Una penna o una matita
 
-- A stack of ~20 [index cards][wiki-index-cards] with random numbers printed on on side, ranging from -100 to 100.
-- [Sticky notes][wiki-sticky-notes] or small pieces of scrap paper
-- A pen or pencil
+Non scriveremo neanche una riga di codice.
 
-We will not be writing any code.
+## Regole
 
-## The Rules
+Hai un pacchetto di post-it e una penna. All'inizio dell'esercizio, tu...
 
-You have a stack of sticky notes and a pen. At the start of each exercise, you will...
+1. riceverai un mazzo di carte con dei numeri stampati su un lato
+1. ti verrà posta una domanda riguardo ai numeri nel mazzo
 
-1. Receive a stack of index cards with numbers printed on one side
-1. Be asked a question about the numbers in the stack
+Usando i post-it come foglio per gli appunti (and _solo_ i post-it) il tuo compito è di rispondere alla domanda, scrivere la risposta su un post-it e restituirlo.
 
-Using the sticky notes as scratch paper (and *only* the sticky notes) your job is to answer the question, write down the answer on a sticky note, and return it.
+Ci sono tre regole:
 
-There are three rules:
+1. Puoi girare e guardare una sola carta per volta.
 
-1. You can flip over and look at only one index card at a time.
+   Non si può sparpagliarle sul pavimento e, per esempio, fare affidamento sil tuo colpo d'occhio per rispondere alla domanda.
 
-   No spreading them out on the floor and relying on your eyesight to answer the question, for example.
-1. Each sticky note can only have a *single* word or number written on it.
-1. To write on a sticky note, you can either
-   - Write a new word or number on a blank sticky note
-   - Replace a word or number on a non-blank sticky note with something else
+1. Ogni post-it può avere scritto _solo_ una parola o numero.
+1. Per scrivere su un un post-it puoi o
+   - scrivere una nuova parola o numero su un nuovo post-it
+   - sostituire una parola o un numero su un post-it già scritto
 
-### Why These Rules
+### Come mai queste regole
 
-These rules are designed to prevent you from using human capabilities that a computer simply doesn't have.
+Queste regole sono studiate per impedirti di usare delle capacità umane che un computer semplicemente non ha.
 
-For example, if you were handed a stack of index cards with numbers and asked to find the largest number, you might spread them out on the floor with the numbers facing up.  You'd then scan the cards and pick out the largest number based on heuristics like
+Per esempio, se ti viene consegnato un mazzo di carte con i numeri e ti viene chiesto di trovare il numero più grande, potresti sparpagliarle sul pavimento con i numeri rivolti in su. Poi daresti un'occhiata alle carte e prenderesti il numero più grande in base ad euristiche come
 
-- Ignore negative numbers
-- Look for numbers with many digits
-- Look for numbers that start with 9 or 8
+- Ignorare i numeri negativi
+- Cercare numeri con più cifre
+- Cercare numeri che iniziano per 9 o 8
 
-Using those heuristics, you might find a likely candidate for "largest number" and then quickly sanity check by scanning every card to see if there's a larger one.
+Usando queste euristiche, potresti trovare un probabile candidato per "il numero più grande" e poi verificare brevemente controllando tutte le altre carte per vedere se ce ne è uno maggiore.
 
-That's too smart for a computer!
+Ma questo è troppo intelligente per un computer!
 
-So, let's start practicing with [the exerises](#the-exercises).
+Quindi, cominciamo a fare pratica con [gli esercizi](#Gli esercizi).
 
 [wiki-mental-model]: https://en.wikipedia.org/wiki/Mental_model
 [wiki-index-cards]: https://en.wikipedia.org/wiki/Index_card
