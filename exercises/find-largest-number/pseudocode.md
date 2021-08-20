@@ -15,7 +15,7 @@ definisci procedura trova_numero_maggiore:
   restituisci post-it con MAX_FINORA
 fine definisci procedura
 
-assegna PILA uguale a [10, 9, -2, 100, 17]
-chiama la procedura trova_numero_maggiore con input: PILA // ci restituisce 100
+assegna a PILA_DI_NUMERI valore [10, 9, -2, 100, 17]
+chiama la procedura trova_numero_maggiore con input: PILA_DI_NUMERI // ci restituisce 100
 
 ```
